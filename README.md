@@ -1,3 +1,5 @@
+# Выполнил Кочуров Сергей
+# 
 # Severstal Warehouse API
 
 Backend для работы со складом рулонов металла. Проект написан на ASP.NET Core Web API, данные хранятся в PostgreSQL.
