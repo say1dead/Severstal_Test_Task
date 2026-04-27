@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="SeverstalWarehouse.Api/SeverstalWarehouse.Api.csproj" />
+  <Project Path="SeverstalWarehouse.Tests/SeverstalWarehouse.Tests.csproj" />
+</Solution>

@@ -1,0 +1,22 @@
+@SeverstalWarehouse.Api_HostAddress = http://localhost:5135
+
+POST {{SeverstalWarehouse.Api_HostAddress}}/api/coils
+Content-Type: application/json
+
+{
+  "length": 1200,
+  "weight": 3450
+}
+
+###
+
+GET {{SeverstalWarehouse.Api_HostAddress}}/api/coils?onlyInStock=true
+
+###
+
+GET {{SeverstalWarehouse.Api_HostAddress}}/api/coils/statistics?from=2026-01-01T00:00:00Z&to=2026-01-31T23:59:59Z
+
+###
+Accept: application/json
+
+###
